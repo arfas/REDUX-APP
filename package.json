@@ -2,6 +2,7 @@
   "name": "reduxexample",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://arfas.github.io/REDUX-APP/",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -11,6 +12,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
